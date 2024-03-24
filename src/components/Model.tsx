@@ -796,11 +796,14 @@ const ModelCanvas = () => {
   const adjustModelForScreenSize = () => {
     let screenScale, screenPosition;
 
-    if (window.innerWidth < 768) {
-      screenScale = 0.04;
+    if (window.innerWidth < 640) {
+      screenScale = 0.02;
+      screenPosition = [0, 0, 0];
+    } else if (window.innerWidth < 768) {
+      screenScale = 0.033;
       screenPosition = [0, 0, 0];
     } else {
-      screenScale = 0.044;
+      screenScale = 0.04;
       screenPosition = [0, 0, 0];
     }
 
@@ -810,21 +813,23 @@ const ModelCanvas = () => {
   const [scale, position] = adjustModelForScreenSize();
 
   return (
-    <Canvas style={{ width: 900, height: 800 }}>
-      <OrbitControls />
-      <OrthographicCamera />
-      <directionalLight position={[1, 1, 1]} intensity={2} />
-      <directionalLight position={[1, 1, 10]} intensity={2} />
-      <directionalLight position={[0, 0, 1]} intensity={1} />
-      <ambientLight intensity={0.5} />
-      <hemisphereLight
-        skyColor="#b1e1ff"
-        groundColor={"#000000"}
-        intensity={1}
-      />
-      <Model position={position} scale={scale} />
-      <directionalLight position={position} intensity={1} />
-    </Canvas>
+    <div className="w-[80vw] h-[40vh] md:w-[60vw] md:h-[60vh]">
+      <Canvas style={{ width: "100%", height: "100%" }}>
+        <OrbitControls minDistance={4} maxDistance={8} />
+        <OrthographicCamera />
+        <directionalLight position={[1, 1, 1]} intensity={2} />
+        <directionalLight position={[1, 1, 10]} intensity={2} />
+        <directionalLight position={[0, 0, 1]} intensity={1} />
+        <ambientLight intensity={0.5} />
+        <hemisphereLight
+          skyColor="#b1e1ff"
+          groundColor={"#000000"}
+          intensity={1}
+        />
+        <Model position={position} scale={scale} />
+        <directionalLight position={position} intensity={1} />
+      </Canvas>
+    </div>
   );
 };
 
