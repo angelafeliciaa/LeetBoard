@@ -1,3 +1,4 @@
+import Model from "./Model";
 import { Button } from "./ui/button";
 
 export const Hero = () => {
@@ -31,7 +32,9 @@ export const Hero = () => {
       </div>
 
       {/* Hero cards sections */}
-      <div className="z-10">3D model here</div>
+      <div className="z-10">
+        <Model />
+      </div>
 
       {/* Shadow effect */}
       <div className="shadow"></div>

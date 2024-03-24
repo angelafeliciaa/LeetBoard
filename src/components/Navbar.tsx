@@ -17,7 +17,6 @@ import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
 import { LogoIcon } from "./Icons";
-import { Avatar, AvatarFallback } from "./ui/avatar";
 
 interface RouteProps {
   href: string;
@@ -26,20 +25,12 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
+    href: "#howItWorks",
+    label: "How it works?",
+  },
+  {
     href: "#features",
     label: "Features",
-  },
-  {
-    href: "#testimonials",
-    label: "Testimonials",
-  },
-  {
-    href: "#pricing",
-    label: "Pricing",
-  },
-  {
-    href: "#faq",
-    label: "FAQ",
   },
 ];
 
