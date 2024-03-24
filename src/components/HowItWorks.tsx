@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { MedalIcon, MapIcon, PlaneIcon, PlayIcon, LogoIcon, LightBulbIcon, MagnifierIcon, ChartIcon} from "../components/Icons";
+import { MedalIcon, PlaneIcon, ChartIcon } from "../components/Icons";
 
 interface FeatureProps {
   icon: JSX.Element;
@@ -17,7 +17,8 @@ const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
     title: "2. Solve the problem",
-    description: "Engage in a collaborative problem-solving session with your interviewee.",
+    description:
+      "Engage in a collaborative problem-solving session with your interviewee.",
   },
   {
     icon: <ChartIcon />,
@@ -37,7 +38,8 @@ export const HowItWorks = () => {
         </span>
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-      Experience the seamless functionality of our exceptional 3D interview platform.
+        Experience the seamless functionality of our exceptional 3D interview
+        platform.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

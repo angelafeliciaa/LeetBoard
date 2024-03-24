@@ -4,9 +4,11 @@ import { a } from "@react-spring/three";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, OrthographicCamera } from "@react-three/drei";
 
+// @ts-expect-error 2307
 import Model3d from "../assets/3d/3d_printable_radial_pneumatic_engine.glb";
 
-const Model = (props: unknown) => {
+// eslint-disable-next-line
+const Model = (props: any) => {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF(Model3d);
   const { actions } = useAnimations(animations, group);
@@ -815,18 +817,20 @@ const ModelCanvas = () => {
   return (
     <div className="w-[80vw] h-[40vh] md:w-[60vw] md:h-[60vh]">
       <Canvas style={{ width: "100%", height: "100%" }}>
-        <OrbitControls minDistance={4} maxDistance={8} />
+        <OrbitControls minDistance={2} maxDistance={8} />
         <OrthographicCamera />
         <directionalLight position={[1, 1, 1]} intensity={2} />
         <directionalLight position={[1, 1, 10]} intensity={2} />
         <directionalLight position={[0, 0, 1]} intensity={1} />
         <ambientLight intensity={0.5} />
         <hemisphereLight
+          // @ts-expect-error 2322
           skyColor="#b1e1ff"
           groundColor={"#000000"}
           intensity={1}
         />
         <Model position={position} scale={scale} />
+        {/* @ts-expect-error 2322 */}
         <directionalLight position={position} intensity={1} />
       </Canvas>
     </div>
