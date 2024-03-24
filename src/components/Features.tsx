@@ -55,12 +55,11 @@ export const Features = () => {
         </span>
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground text-center">
-  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis dolor pariatur sit!
+      Explore our diverse range of engineering interview questions tailored to assess skills, problem-solving abilities.
 </p>
 
-
-
-      <div className="grid grid-cols-3"> {/* Reduced gap to 2 */}
+<div className="flex justify-center">
+      <div className="grid grid-cols-3 gap-6"> {/* Reduced gap to 2 */}
         {/* First Card */}
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
 
@@ -124,6 +123,7 @@ export const Features = () => {
         
       
 
+      </div>
       </div>
 
       
