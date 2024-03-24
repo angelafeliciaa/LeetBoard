@@ -59,7 +59,7 @@ export const Features = () => {
 </p>
 
 <div className="flex justify-center">
-      <div className="grid grid-cols-3 gap-6"> {/* Reduced gap to 2 */}
+      <div className="grid grid-cols-3 gap-8"> {/* Reduced gap to 2 */}
         {/* First Card */}
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
 
@@ -68,15 +68,15 @@ export const Features = () => {
 
           {/* <img src={engineimg} alt="Engine" className="w-full h-auto" /> */}
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <div className="font-bold text-xl mb-2">Pneumatic-Engined Toy Car</div>
             <p className="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            A toy car featuring a double-acting 1-cylinder compressed air engine and functional steering.
             </p>
           </div>
           <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#automobile</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#car</span>
+            
           </div>
         </div>
 
@@ -85,20 +85,18 @@ export const Features = () => {
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
 
         <div className="sketchfab-embed-wrapper"> <iframe title="3d Printable Air Balloon Engine for LEGO" allowFullScreen allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/1879711af3664ef7bc150f90139e8d2a/embed?autospin=1&autostart=1" width="400" height="250"> </iframe> </div>
-
-
   
           {/* <img src={engine2} alt="Card Top" className="w-full h-auto" /> */}
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <div className="font-bold text-xl mb-2">Air Balloon Engine</div>
             <p className="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            Radial Pneumatic Engine assembled with a nitrile glove and two balloons, eliminating the need for bolts.
             </p>
           </div>
           <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#balloon</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#motor</span>
+            
           </div>
         </div>
 
@@ -107,15 +105,14 @@ export const Features = () => {
         <div className="sketchfab-embed-wrapper"> <iframe title="Oscillating Cylinder Motor for LEGO (3d Print)" allowFullScreen allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/f66c6dc8059e4fa2b2a05c421cff81df/embed?autospin=1&autostart=1" width="400" height="250"> </iframe> </div>
           {/* <img  src={engine3} alt="Card Top" className="w-full h-auto" /> */}
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <div className="font-bold text-xl mb-2">Oscillating Cylinder Motor</div>
             <p className="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            Explore the efficiency of an oscillating cylinder steam engine, boasting a design that operates seamlessly without the need for valve gear.
             </p>
           </div>
           <div className="px-6 pt-4 pb-2">
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#cylinder</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#motor</span>
           </div>
         </div> 
 
