@@ -12,11 +12,12 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import { GitHubLogoIcon, AvatarIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
 import { LogoIcon } from "./Icons";
+import { Avatar, AvatarFallback } from "./ui/avatar";
 
 interface RouteProps {
   href: string;
@@ -117,7 +118,7 @@ export const Navbar = () => {
           </nav>
 
           <div className="hidden md:flex gap-2">
-            <ModeToggle />
+            <AvatarIcon className="w-7 h-7 cursor-pointer" />
           </div>
         </NavigationMenuList>
       </NavigationMenu>
