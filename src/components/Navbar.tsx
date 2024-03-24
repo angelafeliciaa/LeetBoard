@@ -26,7 +26,7 @@ interface RouteProps {
 const routeList: RouteProps[] = [
   {
     href: "#howItWorks",
-    label: "How it works",
+    label: "How It Works",
   },
   {
     href: "#features",
@@ -86,7 +86,7 @@ export const Navbar = () => {
           </span>
 
           {/* desktop */}
-          <nav className="hidden md:flex gap-2">
+          <nav className="hidden md:flex gap-2 relative -left-[55px]">
             {routeList.map((route: RouteProps, i) => (
               <a
                 href={route.href}
