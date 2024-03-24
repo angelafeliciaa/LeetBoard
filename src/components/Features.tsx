@@ -75,20 +75,25 @@ export const Features = () => {
             </div>
 
             {/* <img src={engine2} alt="Card Top" className="w-full h-auto" /> */}
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">Air Balloon Engine</div>
-              <p className="text-gray-700 text-base">
-                Radial Pneumatic Engine assembled with a nitrile glove and two
-                balloons, eliminating the need for bolts.
-              </p>
-            </div>
-            <div className="px-6 pt-4 pb-2">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                #balloon
-              </span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                #motor
-              </span>
+            <div
+              className="cursor-pointer"
+              onClick={() => window.open("https://leetboard-3d.vercel.app/")}
+            >
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2">Air Balloon Engine</div>
+                <p className="text-gray-700 text-base">
+                  Radial Pneumatic Engine assembled with a nitrile glove and two
+                  balloons, eliminating the need for bolts.
+                </p>
+              </div>
+              <div className="px-6 pt-4 pb-2">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #balloon
+                </span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  #motor
+                </span>
+              </div>
             </div>
           </div>
           {/* Third Card */}
