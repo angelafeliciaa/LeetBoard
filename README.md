@@ -1,5 +1,5 @@
 # 🛠️ LeetBoard - An interactive 3D interview environment for hardware engineers 👷
-![LeetBoard Team Video](./assets/IMG_3366.mp4)
+https://github.com/angelafeliciaa/LeetBoard/assets/25615887/cb2e3d78-9687-41dc-a715-75c9846956e0
 
 ## Inspiration
 Our inspiration stems from the innovative capabilities showcased by Microsoft HoloLens, particularly in commercial staff training applications. We were inspired to leverage this technology and integrate it seamlessly into the interview processes tailored for engineers.
@@ -26,7 +26,6 @@ We successfully developed our Minimum Viable Product (MVP) with all features ope
 
 ## What we learned
 A lot of 3D stuff!
-
 
 ## What's next for LeetBoard
 Some additional features: 
